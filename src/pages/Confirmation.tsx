@@ -1,7 +1,6 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "../styles/Confirmation.css";
-
 const notifications = [
   { phone: "0708****85", limit: 45000 },
   { phone: "0712****34", limit: 30000 },
@@ -14,6 +13,7 @@ const notifications = [
   { phone: "0789****67", limit: 30000 },
   { phone: "0791****89", limit: 45000 },
 ];
+
 
 // Weighted times for realistic notification feel
 const notificationTimes = [
