@@ -91,6 +91,8 @@ const Confirmation = () => {
         }
       );
 
+      
+
       const data = await response.json();
       setLoading(false);
 
